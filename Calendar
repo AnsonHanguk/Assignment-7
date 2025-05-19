@@ -1,0 +1,16 @@
+package main;
+
+public class Calendar {
+
+	//setting date and time to a placeholder 
+	
+String date = null;
+String time = null;
+
+	//the program compares appointment to a date and time to complete calaneder function
+	
+	public boolean compare(Appointment other) {
+		return this.date.equals(other.date) && this.time.equals(other.time);
+	
+}
+}
