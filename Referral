@@ -1,0 +1,18 @@
+package main;
+
+
+//create referral class
+public class Referral {
+
+	//create a string (provider name)
+	String providername; 
+	//use a method to create the getter
+	public String getProvidername() {
+		return providername;
+	}
+//create a setter for the providerName with a another method
+	public void setProvidername(String providername) {
+		this.providername = providername;
+	}
+
+}
