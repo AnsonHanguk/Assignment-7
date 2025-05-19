@@ -1,0 +1,12 @@
+//HEADER
+// Anson Project 7
+// Auther: Anson
+// Class: CS161 Spring 2025
+// 5/19/2025
+// Program outline for Updates Class Diagram
+//Each class wil have its own repository.
+
+//Create the class Appoitnment to be used like a shell
+package main;
+public class Appointment { 
+}
