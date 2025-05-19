@@ -1,0 +1,38 @@
+package main;
+
+//create the class 
+public class ClinicService {
+
+	//setting up the varibales I need
+	private int number;
+	private String name;
+	private String serviceDescription;
+	//creating getters and setters
+	public int getNumber() {
+		return number;
+	}
+
+	public String getServiceDescription() {
+		return serviceDescription;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	
+	public void setNumber(int number) {
+		this.number = number;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	//properly establishing service description variable with a new method
+	
+	public void setServiceDescription(String serviceDescription) {
+		this.serviceDescription = serviceDescription;
+	
+}
+}
