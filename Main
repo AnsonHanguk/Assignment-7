@@ -1,0 +1,8 @@
+//main is not doing much right now, however, when the program is being developed it can be used to reference methods and allow input
+
+
+package main;
+//filler
+public class Main {
+
+}
