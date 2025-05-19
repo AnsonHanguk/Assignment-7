@@ -1,0 +1,55 @@
+package main;
+
+
+
+//create class 
+public class Referrallist {
+	//set up the needed variables 
+	String location;
+	String phone;
+	String serviceProvided;
+	String providerName;
+	
+	//create getters and seters 
+	
+	public String getProviderName() {
+		return providerName;
+	}
+
+	public void setProviderName(String providerName) {
+		this.providerName = providerName;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		location = location;
+	}
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	public String getServiceProvided() {
+		return serviceProvided;
+	}
+
+	public void setServiceProvided(String serviceProvided) {
+		this.serviceProvided = serviceProvided;
+	}
+
+//create a method to check and match the service to need
+	
+	if (serviceneed = serviceProvided) {
+		
+		return providerName, location, phone, serviceProvided;
+	}
+
+}
+}
