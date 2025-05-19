@@ -1,0 +1,20 @@
+package main;
+
+
+//create the class 
+public class ServiceNeed {
+//create the service need variable
+	String serviceneed;
+//create a getter
+	public String getServiceneed() {
+		return serviceneed;
+	}
+//create a setter
+	public void setServiceneed(String serviceneed) {
+		this.serviceneed = serviceneed;
+	}
+
+	
+
+	
+}
