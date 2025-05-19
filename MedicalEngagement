@@ -1,0 +1,23 @@
+package main;
+//create class
+public class MedicalEngagement {
+//create date and time
+	String date;
+	String time;
+	
+	//create methods to set up date and time to be used throughout the program
+	
+	public String getDate() {
+		return date;
+	}
+	public void setDate(String date) {
+		this.date = date;
+	}
+	public String getTime() {
+		return time;
+	}
+	public void setTime(String time) {
+		this.time = time;
+	}
+
+}
