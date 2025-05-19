@@ -1,0 +1,20 @@
+package main;
+//create the SurveyQuestionsClass
+public class SurveyQuestions {
+	String surveyquestionnumber;
+	String question;
+	//create getters and seters for the questions
+	public String getSurveyquestionnumber() {
+		return surveyquestionnumber;
+	}
+	public void setSurveyquestionnumber(String surveyquestionnumber) {
+		this.surveyquestionnumber = surveyquestionnumber;
+	}
+	public String getQuestion() {
+		return question;
+	}
+	public void setQuestion(String question) {
+		this.question = question;
+	}
+	
+}
