@@ -1,0 +1,75 @@
+package main;
+//establish class
+public class Scheduler {
+
+	//create the needed variables
+    private String getavail;
+	private String survey;
+	private String serviceNeed;
+	private String appointment;
+	private String referral;
+
+//create a method that can make an apoitnment/give the referral
+	if(requesttobeseen = true) {
+		
+	giveuser(referral);
+	
+}
+
+//create getters and setters for variable
+	public String getGetavail() {
+		return getavail;
+	}
+
+
+	private void giveuser(String referral2) {
+
+		
+	}
+
+
+	public void setGetavail(String getavail) {
+		this.getavail = getavail;
+	}
+
+
+	public String getSurvey() {
+		return survey;
+	}
+
+
+	public void setSurvey(String survey) {
+		this.survey = survey;
+	}
+
+
+	public String getServiceNeed() {
+		return serviceNeed;
+	}
+
+
+	public void setServiceNeed(String serviceNeed) {
+		this.serviceNeed = serviceNeed;
+	}
+
+
+	public String getAppointment() {
+		return appointment;
+	}
+
+
+	public void setAppointment(String appointment) {
+		this.appointment = appointment;
+	}
+
+
+	public String getReferral() {
+		return referral;
+	}
+
+
+	public void setReferral(String referral) {
+		this.referral = referral;
+	}
+}
+}
