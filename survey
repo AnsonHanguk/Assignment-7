@@ -1,0 +1,31 @@
+package main;
+//create the survey class
+public class Survey {
+	
+	//set up the needed variables
+	String surveyquestionnumber;
+	String question;
+	//create getters and setters
+	public String getSurveyquestionnumber() {
+		return surveyquestionnumber;
+	}
+	public void setSurveyquestionnumber(String surveyquestionnumber) {
+		this.surveyquestionnumber = surveyquestionnumber;
+	}
+	public String getQuestion() {
+		return question;
+	}
+	public void setQuestion(String question) {
+		this.question = question;
+	}
+
+	//A method to ask and remember questions is needed
+	
+	
+	//ask
+public void displayQuestion() {
+}	
+//remember
+	public void saveQUestion( ) {
+}
+}
